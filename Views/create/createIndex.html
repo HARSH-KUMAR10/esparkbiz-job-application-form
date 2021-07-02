@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="stylesheet" type="text/css" href="./createStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <script src="createScript.js"></script>
+    <title>New Application</title>
+</head>
+<body>
+    <div id="HarshHeading">
+        <h1>New Application</h1>
+        <p>By : Harsh Kumar</p>
+    </div>
+    <section id="HarshMain">
+        <a href="/" style="color:blue;text-decoration: none;">Home</a>&gt;New Application
+        <form action="/addApplication">
+            <section id="HarshFormInput">
+                <fieldset id="formSection1">
+                    <legend>Basic Details</legend>
+                    <span id="HarshInputFields"> First Name : <br> <input type="text" name="UserFname" required/></span>
+                    <span id="HarshInputFields"> Last Name : <br> <input type="text" name="UserLname" required/></span>
+                    <span id="HarshInputFields"> Designation : <br> <input type="text" name="UserDesignation" required/></span>
+                    <span id="HarshInputFields"> Email : <br> <input type="email" name="UserEmail" required/></span>
+                    <span id="HarshInputFields"> Address : <br> <input type="text" name="UserAddress" size="55" required/></span>
+                    <span id="HarshInputFields"> City : <br> <input type="text" name="UserCity" required/></span>
+                    <span id="HarshInputFields"> PinCode : <br> <input type="number" name="UserPincode" maxlength="6" minlength="6" required/></span>
+                    <span id="HarshInputFields"> State : <br> 
+                        <select name="UserState" required>
+                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                            <option value="Punjab"> Punjab</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            
+                            <option value="Delhi">Delhi</option>
+                            <option value="Uttar Pradesh"> Uttar Pradesh</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="West Bengal">West Bengal</option>
+                            
+                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                            <option value="Assam"> Assam</option>
+                            <option value="Nagaland">Nagaland</option>
+                            <option value="Mizoram">Mizoram</option>
+                            
+                            <option value="Manipur">Manipur</option>
+                            <option value="Meghalaya"> Meghalaya</option>
+                            <option value="Tripura">Tripura</option>
+                            <option value="Sikkim">Sikkim</option>
+                            
+                            <option value="Orissa">Orissa</option>
+                            <option value="Chattisgarh">Chattisgarh</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Gujarat">Gujarat</option>
+                            
+                            <option value="Telangana">Telangana</option>
+                            <option value="Karnataka"> Karnataka</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="tamil Nadu">tamil Nadu</option>
+                            
+                            <option value="Kerala">Kerala</option>
+                            <option value="Uttrakhand"> Uttrakhand</option>
+                            <option value="Andra Pradesh">Andra Pradesh</option>
+                            <option value="Jharkhand">Jharkhand</option>
+                        </select>
+                    </span>
+                    <span id="HarshInputFields"> Phone : <br> <input type="number" name="UserPhone" required maxlength="10" minlength="10"/></span>
+                    <span id="HarshInputFields">
+                        Gender : <br> <input type="radio" name="UserGender" value="M"/> Male
+                        <input type="radio" name="UserGender" value="F"/> Female
+                        <input type="radio" name="UserGender" value="O"/> Other
+                    </span>
+                    <span id="HarshInputFields"> Date of Birth : <br> <input type="date" name="UserDOB" required/></span>
+                    <span id="HarshInputFields"> Relationship Status : 
+                        <br><select name="UserStatus" required>
+                            <option value="S"> single </option>
+                            <option value="M"> maried </option>
+                        </select>
+                    </span>
+                </fieldset>
+                <fieldset id="formSection2" style="display:none;">
+                    <legend>Education Details</legend>
+                    SSC Result <br> <br>
+                    <span id="HarshInputFields2">Name of board <br> <input type="text" name="UserSSCBoard" required/></span>
+                    <span id="HarshInputFields2">Passing Year <br> <input type="number" maxlength="4" minlength="4" required name="UserSSCPassing"/></span>
+                    <span id="HarshInputFields2">Percentage <br> <input type="number" maxlength="2" required name="UserSSCPercentage"/></span>
+                    <hr style="width:90%;color:black;height:2px;"/>
+                    HSC/Diploma Result<br> <br>
+                    <span id="HarshInputFields2">Name of board <input type="text" name="UserHSCBoard" required/></span>
+                    <span id="HarshInputFields2">Passing Year <input type="number" maxlength="4" minlength="4" required name="UserHSCPassing"/></span>
+                    <span id="HarshInputFields2">Percentage <input type="number" maxlength="2" required name="UserHSCPercentage"/></span>
+                    <hr style="width:90%;color:black;height:2px;"/>
+                    Bachelor degree<br> <br>
+                    <span id="HarshInputFields2">Name of board <input type="text" name="UserBDBoard"/></span>
+                    <span id="HarshInputFields2">University <input type="text" name="UserBDUniversity"/></span>
+                    <span id="HarshInputFields2">Passing Year <input type="number" maxlength="4" minlength="4" name="UserBDPassing"/></span>
+                    <span id="HarshInputFields2">Percentage <input type="number" maxlength="2" name="UserBDPercentage"/></span>
+                    <hr style="width:90%;color:black;height:2px;"/>
+                    Master Degree<br> <br>
+                    <span id="HarshInputFields2">Name of board <input type="text" name="UserMDBoard"/></span>
+                    <span id="HarshInputFields2">University <input type="text" name="UserMDUniversity"/></span>
+                    <span id="HarshInputFields2">Passing Year <input type="number" maxlength="4" minlength="4" name="UserMDPassing"/></span>
+                    <span id="HarshInputFields2">Percentage <input type="number" maxlength="2" name="UserMDPercentage"/></span>
+                </fieldset>
+                <fieldset id="formSection3" style="display:none;">
+                    <legend>Work Experience</legend>
+                    <span id="HarshInputFields2">Company Name : <input type="text" name="UserCompany1"/></span>
+                    <span id="HarshInputFields2">Designation : <input type="text" name="UserDesignation1"/></span>
+                    <span id="HarshInputFields2">From : <input type="date" name="UserFrom1"/></span>
+                    <span id="HarshInputFields2">To : <br> <input type="date" name="UserTo1" /></span>
+                    <hr/>
+                    <span id="HarshInputFields2">Company Name : <input type="text" name="UserCompany2"/></span>
+                    <span id="HarshInputFields2">Designation : <input type="text" name="UserDesignation2"/></span>
+                    <span id="HarshInputFields2">From : <input type="date" name="UserFrom2"/></span>
+                    <span id="HarshInputFields2">To : <br> <input type="date" name="UserTo2"/></span>
+                    <hr/>
+                    <span id="HarshInputFields2">Company Name : <input type="text" name="UserCompany3"/></span>
+                    <span id="HarshInputFields2">Designation : <input type="text" name="UserDesignation3"/></span>
+                    <span id="HarshInputFields2">From : <input type="date" name="UserFrom3"/></span>
+                    <span id="HarshInputFields2">To : <br> <input type="date" name="UserTo3"/></span>
+                </fieldset>
+                <fieldset id="formSection4" style="display:none;">
+                </fieldset>
+                <fieldset id="formSection5" style="display:none;">
+                    <legend>Technologies you know</legend>
+                    <span id="HarshInputFields2"><input type="checkbox" name="technology1"> <b> PHP</b></span>
+                    <span id="HarshInputFields2"><input type="radio" value="1" name="TechLevel1"/> Begginers</span>
+                    <span id="HarshInputFields2"><input type="radio" value="2" name="TechLevel1"/> Mideator</span>
+                    <span id="HarshInputFields2"><input type="radio" value="3" name="TechLevel1"/> Expert</span>
+                    <hr>
+                    <span id="HarshInputFields2"><input type="checkbox" name="technology2"><b> MySQL</b></span>
+                    <span id="HarshInputFields2"><input type="radio" value="1" name="TechLevel2"/> Begginers</span>
+                    <span id="HarshInputFields2"><input type="radio" value="2" name="TechLevel2"/> Mideator</span>
+                    <span id="HarshInputFields2"><input type="radio" value="3" name="TechLevel2"/> Expert</span>
+                    <hr>
+                    <span id="HarshInputFields2"><input type="checkbox" name="technology3"><b> Laravel</b></span>
+                    <span id="HarshInputFields2"><input type="radio" value="1" name="TechLevel3"/> Begginers</span>
+                    <span id="HarshInputFields2"><input type="radio" value="2" name="TechLevel3"/> Mideator</span>
+                    <span id="HarshInputFields2"><input type="radio" value="3" name="TechLevel3"/> Expert</span>
+                    <hr>
+                    <span id="HarshInputFields2"><input type="checkbox" name="technology4"><b> Oracle</b></span>
+                    <span id="HarshInputFields2"><input type="radio" value="1" name="TechLevel4"/> Begginers</span>
+                    <span id="HarshInputFields2"><input type="radio" value="2" name="TechLevel4"/> Mideator</span>
+                    <span id="HarshInputFields2"><input type="radio" value="3" name="TechLevel4"/> Expert</span>
+                </fieldset>
+                <fieldset id="formSection6" style="display:none;">
+                    <legend>Reference Contact</legend>
+                    <span id="HarshInputFields2">Name: <input type="text" name="RefName1" required/></span>
+                    <span id="HarshInputFields2">Contact: <input type="number" name="RefContact1" maxlength="10" required/></span>
+                    <span id="HarshInputFields2">Relation: <input type="text" name="RefRelation1" required/></span>
+                    <hr>
+                    <span id="HarshInputFields2">Name: <input type="text" name="RefName2"/></span>
+                    <span id="HarshInputFields2">Contact: <input type="number" name="RefContact2" maxlength="10"/></span>
+                    <span id="HarshInputFields2">Relation: <input type="text" name="RefRelation2"/></span>
+                </fieldset>
+                <fieldset id="formSection7" style="display:none;">
+                    <legend>Preference</legend>
+                    Prefered Location :<br><textarea name="preferLocation" cols="20" rows="10"></textarea>
+                <span style="display: inline-block; width:60%;"><span id="HarshInputFields3">Notice Period : <input type="text" name="NoticePeriod" /></span>
+                    <span id="HarshInputFields3">Department : 
+                        <select name="Department">
+                            <option value="Development">Development</option>
+                            <option value="Design">Design</option>
+                            <option value="Marketing">Marketing</option>
+                        </select>
+                    </span><br>
+                    <span id="HarshInputFields3">Expected CTC : <input type="text" name="CTC1"/></span>
+                    <span id="HarshInputFields3">Current CTC : <input type="text" name="CTC2"/></span>
+                </span>
+                </fieldset>
+                <div id="HarshPreButton" style="display: none;">
+                    <button type="button" onclick="goPre()">Previous</button>
+                </div>
+                <div id="HarshNextButton">
+                    <button type="button" onclick="goNext()">Next</button>
+                </div>
+                <div id="HarshSubmitButton" style="display:none;">
+                    <input type="submit"/>
+                </div>
+                <div id="progressBar">
+                    <div style="margin:1% 10%;" class="w3-light-grey">
+                        <div id="myBar" class="w3-container w3-green" style="height:8px;width:1%"></div>
+                    </div>
+                </div>
+            </section>
+
+        </form>
+    </section>
+    <section id="Harshfooter">
+        By:Harsh Kumar (harshkumar093@gmail.com)
+    </section>
+</body>
+</html>

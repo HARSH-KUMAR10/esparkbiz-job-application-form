@@ -1,0 +1,72 @@
+html,body{
+    overflow-x: hidden;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+}
+#HarshFormInput{
+    margin: auto;
+    width: 80%;
+    padding:2%;
+    font-size: 12px;
+}
+input{
+    font-size: 12px;
+}
+#HarshInputFields{
+    display: inline-block;
+    width:49%;
+    margin:auto;
+}
+#HarshMain{
+    height: auto;
+}
+#HarshSubmitButton{
+    text-align: right;
+}
+#HarshNextButton,#HarshPreButton{
+    display: inline-block;
+    width:40%;
+    margin:0% 3%;
+}
+#HarshSubmitButton input,#HarshNextButton button,#HarshPreButton button{
+    background-color: lightgreen;
+    text-align: center;
+    color:white;
+    border:2px solid lightgreen;
+    margin:2% 0%;
+    padding: 1%;
+    font-size: 18px;
+    width: 100%;
+    height: fit-content;
+}
+#HarshNextButton button{
+    background-color: greenyellow;
+    border:2px solid greenyellow;
+}
+#HarshPreButton button{
+    background-color: teal;
+    border:2px solid teal;
+}
+#HarshForm1{
+    padding:2%;
+}
+#formSectionTwo input{
+    size:10;
+}
+#HarshInputFields2{
+    display: inline-block;
+    width:20%;
+    margin:auto;
+}
+#HarshInputFields3{
+    display: inline-block;
+    width:35%;
+    margin:auto;
+}
+legend{
+    font-size: 15px;
+    margin:2%;
+}
+#formSection7{
+    margin:auto;
+}

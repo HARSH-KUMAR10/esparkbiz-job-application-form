@@ -1,0 +1,94 @@
+html,body{
+    overflow-x: hidden;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+}
+#HarshFormInput{
+    margin: auto;
+    width: 80%;
+    padding:2%;
+    font-size: 12px;
+}
+input{
+    font-size: 12px;
+}
+#HarshInputFields{
+    display: inline-block;
+    width:49%;
+    margin:auto;
+}
+#HarshMain{
+    height: auto;
+}
+#HarshSubmitButton{
+    text-align: right;
+}
+#HarshSubmitButton input,#HarshNextButton button{
+    background-color: lightgreen;
+    color:white;
+    border:2px solid lightgreen;
+    margin:1%;
+    padding: 1%;
+    font-size: 18px;
+}
+#HarshNextButton button{
+    background-color: cadetblue;
+    border:2px solid cadetblue;
+}
+#HarshForm1{
+    padding:2%;
+}
+#formSectionTwo input{
+    size:10;
+}
+#HarshInputFields2{
+    display: inline-block;
+    width:20%;
+    margin:auto;
+}
+#HarshInputFields3{
+    display: inline-block;
+    width:35%;
+    margin:auto;
+}
+legend{
+    font-size: 15px;
+    margin:2%;
+}
+#formSection7{
+    margin:auto;
+}
+body{
+    overflow: auto;
+}
+#HarshMain{
+    height:auto;
+}
+#Content{
+    text-align: center;
+}
+#Content table{
+    margin:auto;
+}
+#Content table button{
+    background-color: #2962ff;
+    color: white;
+    border:2px solid #2962ff;
+    padding:5px;
+    margin:5px;
+}
+#Content table button:hover{
+    background-color: white;
+    color: #2962ff;
+}
+
+#findData{
+    margin:2%;
+}
+#findData table{
+    margin:auto;
+    padding:2%;
+}
+fieldset{
+    padding:2%;
+}

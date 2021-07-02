@@ -1,0 +1,35 @@
+body{
+    overflow: auto;
+}
+#HarshMain{
+    height:auto;
+}
+#Content{
+    text-align: center;
+}
+#Content table{
+    margin:auto;
+}
+#Content table button{
+    background-color: #2962ff;
+    color: white;
+    border:2px solid #2962ff;
+    padding:5px;
+    margin:5px;
+}
+#Content table button:hover{
+    background-color: white;
+    color: #2962ff;
+}
+
+#findData{
+    margin:2%;
+    text-align: center;
+}
+#findData table{
+    margin:auto;
+    text-align: center;
+}
+td{
+    padding:10px;
+}

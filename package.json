@@ -1,0 +1,16 @@
+{
+  "name": "week1_assignment",
+  "version": "1.0.0",
+  "description": "Week 1 assignment for Esparkbiz internship",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Harsh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.11"
+  }
+}

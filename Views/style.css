@@ -1,0 +1,74 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-family: verdana;
+    overflow: hidden;
+}
+html,body{
+    background-color: whitesmoke;
+    height:100%;
+}
+#HarshHeading,#Harshfooter{
+    background-color: burlywood;
+    color:white;
+    padding:1%;
+}
+#Harshfooter{
+    text-align: center;
+}
+#HarshHeading h1{
+    text-align: center;
+}
+#HarshHeading p{
+    text-align: right;
+}
+#HarshMain{
+    height: 65%;
+    background-color: white;
+    margin:2% 4%;
+    border:1px solid white;
+    border-radius:10px;
+    padding:1%;
+}
+#HarshMainHeading{
+    margin:3% 0%;
+    text-align: center;
+    font-size: 35px;
+}
+#HarshMainNavlinks{
+    text-align: center;
+    margin:5%;
+}
+#HarshMainNavlinks a{
+    text-decoration: none;
+    background-color: #2962ff;
+    color:white;
+    display: inline-block;
+    padding:1%;
+    width:40%;
+    margin:1%;
+    text-align: center;
+    border:2px solid #2962ff;
+}
+#HarshMainNavlinks a:hover{
+    background-color: white;
+    color:#2962ff;
+}
+#HarshMainNavlinks #one{
+    border-radius: 20px 0px 0px 0px;
+}
+#HarshMainNavlinks #two{
+    border-radius: 0px 20px 0px 0px;
+}
+#HarshMainNavlinks #three{
+    border-radius: 0px 0px 0px 20px;
+}
+#HarshMainNavlinks #four{
+    border-radius: 0px 0px 20px 0px;
+}
+#date-time,#DATE,#TIME{
+    font-size: 15px;
+    font-family: courier new;
+    text-align: right;
+    color: green;
+}
