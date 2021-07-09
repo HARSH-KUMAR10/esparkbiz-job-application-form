@@ -135,38 +135,38 @@ function createTable(result){
                 <fieldset id="formSection4" style="display:none;">\
                     <legend>Language known</legend>\
                     <span id="HarshInputFields2"><input type="checkbox" name="Language1" /> <b> Hindi</b> </span>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="ReadValue1" value="'+getvalue(l.hindi.read)+'"/>Read</span>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="WriteValue1" value="'+getvalue(l.hindi.write)+'"/>Write</span>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="SpeakValue1" value="'+getvalue(l.hindi.speak)+'"/>Speak</span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="ReadValue1" value=""/>Read</span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="WriteValue1" value=""/>Write</span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="SpeakValue1" value=""/>Speak</span>\
                     <hr>\
                     <span id="HarshInputFields2"><input type="checkbox" name="Language2"/><b>English</b></span>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="ReadValue2" value="'+getvalue(l.english.read)+'"/>Read</span>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="WriteValue2" value="'+getvalue(l.english.write)+'"/>Write</span>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="SpeakValue2" value="'+getvalue(l.english.speak)+'"/>Speak</span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="ReadValue2" value=""/>Read</span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="WriteValue2" value=""/>Write</span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="SpeakValue2" value=""/>Speak</span>\
                     <hr>\
                     <span id="HarshInputFields2"><input type="checkbox" name="Language3"/><b>Gujarati</b></span>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="ReadValue3" value="'+getvalue(l.gujarati.read)+'"/>Read</span>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="WriteValue3" value="'+getvalue(l.gujarati.write)+'"/>Write</span>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="SpeakValue3" value="'+getvalue(l.gujarati.speak)+'"/>Speak</span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="ReadValue3" value=""/>Read</span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="WriteValue3" value=""/>Write</span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="SpeakValue3" value=""/>Speak</span>\
                 </fieldset>\
                 <fieldset id="formSection5" style="display:none;">\
                     <legend>Technologies you know</legend>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="technology1" value="'+getvalue(t.A.technology)+'"/> <b> PHP</b></span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="technology1" value=""/> <b> PHP</b></span>\
                     <span id="HarshInputFields2"><input type="radio" value="1" name="TechLevel1"/> Begginers</span>\
                     <span id="HarshInputFields2"><input type="radio" value="2" name="TechLevel1"/> Mideator</span>\
                     <span id="HarshInputFields2"><input type="radio" value="3" name="TechLevel1"/> Expert</span>\
                     <hr>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="technology2" value="'+getvalue(t.B.technology)+'"><b> MySQL</b></span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="technology2" value=""><b> MySQL</b></span>\
                     <span id="HarshInputFields2"><input type="radio" value="1" name="TechLevel2"/> Begginers</span>\
                     <span id="HarshInputFields2"><input type="radio" value="2" name="TechLevel2"/> Mideator</span>\
                     <span id="HarshInputFields2"><input type="radio" value="3" name="TechLevel2"/> Expert</span>\
                     <hr>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="technology3" value="'+getvalue(t.C.technology)+'"><b> Laravel</b></span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="technology3" value=""><b> Laravel</b></span>\
                     <span id="HarshInputFields2"><input type="radio" value="1" name="TechLevel3"/> Begginers</span>\
                     <span id="HarshInputFields2"><input type="radio" value="2" name="TechLevel3"/> Mideator</span>\
                     <span id="HarshInputFields2"><input type="radio" value="3" name="TechLevel3"/> Expert</span>\
                     <hr>\
-                    <span id="HarshInputFields2"><input type="checkbox" name="technology4" value="'+getvalue(t.D.technology)+'"><b> Oracle</b></span>\
+                    <span id="HarshInputFields2"><input type="checkbox" name="technology4" value=""><b> Oracle</b></span>\
                     <span id="HarshInputFields2"><input type="radio" value="1" name="TechLevel4"/> Begginers</span>\
                     <span id="HarshInputFields2"><input type="radio" value="2" name="TechLevel4"/> Mideator</span>\
                     <span id="HarshInputFields2"><input type="radio" value="3" name="TechLevel4"/> Expert</span>\
